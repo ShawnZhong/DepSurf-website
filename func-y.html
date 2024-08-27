@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Kernel Function Inline Status - y</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table>
+<thead>
+<tr>
+<td><span class="f">&nbsp;F&nbsp;</span>: Fully Inlined. <span class="p">&nbsp;P&nbsp;</span>: Partially Inlined. <span class="m">&nbsp;-&nbsp;</span>: Absent</td>
+<th>4.4</th><th>4.8</th><th>4.10</th><th>4.13</th><th>4.15</th><th>4.18</th><th>5.0</th><th>5.3</th><th>5.4</th><th>5.8</th><th>5.11</th><th>5.13</th><th>5.15</th><th>5.19</th><th>6.2</th><th>6.5</th><th>6.8</th></tr>
+</thead>
+<tbody>
+<tr><th id="yama_add_hooks"><pre>yama_add_hooks</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td></tr>
+<tr><th id="yama_dointvec_minmax"><pre>yama_dointvec_minmax</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yama_init"><pre>yama_init</pre></th><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yama_init_sysctl"><pre>yama_init_sysctl</pre></th><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td></tr>
+<tr><th id="yama_ptrace_access_check"><pre>yama_ptrace_access_check</pre></th><td></td><td></td><td></td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yama_ptracer_add"><pre>yama_ptracer_add</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yama_ptracer_del"><pre>yama_ptracer_del</pre></th><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yama_ptrace_traceme"><pre>yama_ptrace_traceme</pre></th><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td><td class="p">P</td></tr>
+<tr><th id="yama_relation_cleanup"><pre>yama_relation_cleanup</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yama_task_free"><pre>yama_task_free</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yama_task_prctl"><pre>yama_task_prctl</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yield"><pre>yield</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yield_task_dl"><pre>yield_task_dl</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yield_task_fair"><pre>yield_task_fair</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yield_task_rt"><pre>yield_task_rt</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yield_task_stop"><pre>yield_task_stop</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yield_to"><pre>yield_to</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yield_to_task_fair"><pre>yield_to_task_fair</pre></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="yoffset_show"><pre>yoffset_show</pre></th><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td class="m">-</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th id="ypan_down"><pre>ypan_down</pre></th><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td></tr>
+<tr><th id="ypan_down_redraw"><pre>ypan_down_redraw</pre></th><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td></tr>
+<tr><th id="ypan_up"><pre>ypan_up</pre></th><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td></tr>
+<tr><th id="ypan_up_redraw"><pre>ypan_up_redraw</pre></th><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td></tr>
+<tr><th id="ywrap_down"><pre>ywrap_down</pre></th><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td></tr>
+<tr><th id="ywrap_up"><pre>ywrap_up</pre></th><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td><td class="f">F</td></tr>
+</tbody>
+</table>
+</body>
+</html>

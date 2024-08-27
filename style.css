@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+thead {
+    border-bottom: 1.5px solid black;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+thead>tr>th {
+    min-width: 4ex;
+}
+
+tbody>tr {
+    border-bottom: 0.5px solid gray;
+}
+
+tbody>tr>th {
+    border-right: 1px solid black;
+    height: 3ex;
+}
+
+.f {
+    background-color: lightgreen;
+}
+
+.p {
+    background-color: lightskyblue;
+}
+
+.m {
+    background-color: whitesmoke;
+    color: gray;
+}
